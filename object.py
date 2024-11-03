@@ -30,12 +30,17 @@ class SebulbasPod(Podracer):
     other.condition = "trashed"
 
 '''
-Make sure to answer the following prompts about your coding experience:
 
 How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
+    1.Encapsulation - attributes are contained in one class, grouping everything together
+    2.Inheritance - the "pods" inherit attributes from the Podracer class and can use them without redefning each time
+    3.Abstraction - N/A?
+    4.Polymorphism - attributes can be changed within each "pod" without changing the class they are inheriting
 
 Would it have been easier to implement a solution to this problem using a different coding style? Why or why not?
+    I think his is the simplest way to code this solution as far as we have learned. Maybe other languages have simpler ways?
 
 How in particular did Object Oriented Programming assist in the solving of this problem?
-
+    Each podracer type has a specific class with defined attributes and methods, making it easy to add new podracer types without changing existing code
 '''
+

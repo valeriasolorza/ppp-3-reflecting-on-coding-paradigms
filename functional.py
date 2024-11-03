@@ -16,11 +16,11 @@ print(flatten_and_sort([["c"], ["d"], ["e", "f"], ["l"]]))
     # Yes, it only depends on its input array and returns the same output every time for the same input
 
 # Is this solution a higher order function? Why or why not?
-    # No because it doesn’t take any functions as arguments or return a function 
+    # No because it doesnt take any functions as arguments or return a function 
 
 # Would it have been easier to solve this problem using a different programming style?
-    # Depends on the pregrammer
+    # Depends on the pregrammer?
 
 # Why in particular is functional programming a helpful paradigm when solving this problem?
-    # Functional programming encourages immutability and pure functions, which helps in creating predictable and reliable code
+    # Functional programming helps in creating predictable and reliable code
 '''
